@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+/* common */
+.content {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: calc(100% - 135px);
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  display: inline-block;
+  min-width: 104px;
+  border-radius: 22px;
+  background: #2e80ce;
+  text-align: center;
+  font-weight: 400;
+  color: #fff;
+  white-space: nowrap;
+}
+/* header */
+.header {
+  background: #10375c;
+}
+.nav {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* nav ul */
+.nav ul {
+  display: flex;
+  width: 363px;
+  justify-content: space-between;
+}
+.nav ul li a:hover{
+    color: #FFF;
+    font-weight: 400;   
+    
+}
+.nav ul a,
+.btn-in {
+  color: #c9d2da;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+/* header logo */
+.header .content .logo {
+  display: flex;
+  align-items: center;
+}
+.header .logo-name {
+  width: 50px;
+  margin-left: 6px;
+  direction: rtl;
+}
+.header .content .logo p {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 14px;
+}
+.header .content .logo strong {
+  font-size: 18px;
+}
+/* header atc */
+.header .atc {
+  display: flex;
+  align-items: center;
+}
+.header .atc .btn {
+  font-size: 1.6rem;
+  line-height: 1.75; /* 175% */
+  padding: 8px 20px;
+}
+.header .atc .btn-in {
+  padding-right: 28px;
+  white-space: nowrap;
+}
