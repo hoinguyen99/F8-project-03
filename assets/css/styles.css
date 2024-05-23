@@ -52,7 +52,7 @@ a {
   justify-content: space-between;
 }
 .nav ul li a:hover{
-    color: #FFF;
+    /* color: #FFF; */
     /* font-weight: 400;    */
     text-shadow: 1px 0 0 currentColor;
     
