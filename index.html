@@ -1,248 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>shine smile</title>
-    <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png" />
-    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/" />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./assets/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./assets/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./assets/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./assets/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/favicon/manifest.json" />
-    <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="./assets/favicon/ms-icon-144x144.png"
-    />
-    <meta name="theme-color" content="#ffffff" />
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- reset css -->
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <!-- styles -->
-    <link rel="stylesheet" href="./assets/css/styles.css" />
-  </head>
-  <body style="height: 5000px">
-    <!-- header -->
-    <div class="header">
-      <div class="content">
-        <!-- navbar -->
-        <div class="nav">
-          <!-- logo -->
-          <div class="logo">
-            <a href="/"><img src="./assets/img/logo.svg" alt="" /></a>
-            <div class="logo-name">
-              <p><strong>shine</strong> smile</p>
-            </div>
-          </div>
-          <!-- navigation -->
-          <ul>
-            <li><a class="home" href="#!">Home</a></li>
-            <li><a href="#!">Services</a></li>
-            <li><a href="#!">About</a></li>
-            <li><a href="#!">Doctors</a></li>
-          </ul>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>shine smile</title>
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="/apple-icon-76x76.png"
+        />
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/" />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+            rel="stylesheet"
+        />
+        <!-- reset css -->
+        <link rel="stylesheet" href="./assets/css/reset.css" />
+        <!-- styles -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+    </head>
+    <body style="height: 5000px">
+        <!-- header -->
+        <div class="header">
+            <div class="content">
+                <!-- navbar -->
+                <div class="nav">
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="/"
+                            ><img src="./assets/img/logo.svg" alt=""
+                        /></a>
+                        <div class="logo-name">
+                            <p><strong>shine</strong> smile</p>
+                        </div>
+                    </div>
+                    <!-- navigation -->
+                    <ul>
+                        <li><a class="home" href="#!">Home</a></li>
+                        <li><a href="#!">Services</a></li>
+                        <li><a href="#!">About</a></li>
+                        <li><a href="#!">Doctors</a></li>
+                    </ul>
 
-          <!-- atc -->
-          <div class="atc">
-            <div><a class="btn-in" href="#!">Log In</a></div>
-            <div><a class="btn" href="#!">Sign Up</a></div>
-          </div>
+                    <!-- atc -->
+                    <div class="atc">
+                        <div><a class="btn-in" href="#!">Log In</a></div>
+                        <a href="#!"><div class="btn">Sign Up</div></a>
+                    </div>
+                </div>
+                <!-- header-info -->
+                <div class="header-info">
+                    <!-- info-content -->
+                    <div class="info-content">
+                        <h1>Exceptional dental care for all ages.</h1>
+                        <p>
+                            Exceptional dental care for all ages. Your great
+                            smile begins with a great dentist.
+                        </p>
+                        <!-- atc-info -->
+                        <div class="atc-info">
+                            <div class="btn">Book Online</div>
+                            <a href="#!">or call (123) 456-7890</a>
+                        </div>
+                    </div>
+                    <!-- info-img  -->
+                    <div class="info-img">
+                        <img
+                            src="./assets/img/header-img-1.jpg"
+                            alt=""
+                            class="img-1"
+                        />
+                        <img
+                            src="./assets/img/header-img-2.jpg"
+                            alt=""
+                            class="img-2"
+                        />
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- header-info -->
-        <div class="header-info">
-          <!-- info-content -->
-          <div class="info-content">
-            <h1>Exceptional dental care for all ages.</h1>
-            <p>
-              Exceptional dental care for all ages. Your great smile begins with
-              a great dentist.
-            </p>
-            <!-- atc-info -->
-            <div class="atc-info">
-              <div class="btn">Book Online</div>
-              <a href="#!">or call (123) 456-7890</a>
+        <main>
+            <!-- services -->
+            <div class="services">
+                <div class="content">
+                    <!-- services-top -->
+                    <div class="services-top">
+                        <div class="top-info">
+                            <h1>Our services</h1>
+                            <p>
+                                Exceptional dental care for all ages. Your great
+                                smile begins with a great dentist.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- services-content -->
+                    <div class="services-content">
+                        <img
+                            class="services-img-1"
+                            src="./assets/img/services-1.jpg"
+                            alt=""
+                        />
+                        <div class="item-list">
+                            <!-- item1 -->
+                            <div class="item">
+                                <div class="icon-1">
+                                    <svg
+                                        width="22"
+                                        height="24"
+                                        viewBox="0 0 22 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Oral Surgery</h3>
+                                    <p>
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- item-2 -->
+                            <div class="item">
+                                <div class="icon-1">
+                                    <svg
+                                        width="22"
+                                        height="24"
+                                        viewBox="0 0 22 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Wisdom Teeth Removal</h3>
+                                    <p>
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- item-3 -->
+                            <div class="item">
+                                <div class="icon-1">
+                                    <svg
+                                        width="22"
+                                        height="24"
+                                        viewBox="0 0 22 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
+                                            fill="currentColor"
+                                        />
+                                    </svg>
+                                </div>
+                                <div class="item-info">
+                                    <h3>Preventative Dentistry</h3>
+                                    <p>
+                                        Everything you expect and then some.
+                                        Cleanings, fillings, and x-rays.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="btn">All Services</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- info-img  -->
-          <div class="info-img">
-            <img src="./assets/img/header-img-1.jpg" alt="" class="img-1" />
-            <img src="./assets/img/header-img-2.jpg" alt="" class="img-2" />
-          </div>
-        </div>
-      </div>
-    </div>
-    <main>
-      <!-- services -->
-      <div class="services">
-        <div class="content">
-          <!-- services-top -->
-          <div class="services-top">
-            <div class="top-info">
-              <h1>Our services</h1>
-              <p>
-                Exceptional dental care for all ages. Your great smile begins
-                with a great dentist.
-              </p>
+            <!-- how-it-works -->
+            <div class="how-it-works">
+                <div class="content">
+                    <!-- works-top-->
+                    <div class="works-top">
+                        <div class="works">
+                            <h1>How it works</h1>
+                            <p>
+                                Exceptional dental care for all ages. Your great
+                                smile begins with a great dentist.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- works-info -->
+                    <div class="works-info">
+                        <div class="works-item">
+                            <img src="./assets/img/works-item-1.svg" alt="" />
+                            <h3 class="line-clamp">Search doctor</h3>
+                            <p class="line-clamp">
+                                Search a doctor by education, qualifications or
+                                experience-contact for inquiry.
+                            </p>
+                            <a href="#!">Learn More</a>
+                        </div>
+                        <div class="works-item">
+                            <img src="./assets/img/works-item-2.svg" alt="" />
+                            <h3 class="line-clamp">Find best doctor</h3>
+                            <p class="line-clamp">
+                                Search a doctor by education, qualifications or
+                                experience-contact for inquiry.
+                            </p>
+                            <a href="#!">Learn More</a>
+                        </div>
+                        <div class="works-item">
+                            <img src="./assets/img/works-item-3.svg" alt="" />
+                            <h3 class="line-clamp">Get treatment</h3>
+                            <p class="line-clamp">
+                                Search a doctor by education, qualifications or
+                                experience-contact for inquiry.
+                            </p>
+                            <a href="#!">Learn More</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- services-content -->
-          <div class="services-content">
-            <img
-              class="services-img-1"
-              src="./assets/img/services-1.jpg"
-              alt=""
-            />
-            <div class="item-list">
-              <!-- item1 -->
-              <div class="item">
-                <div class="icon-1">
-                  <svg
-                    width="22"
-                    height="24"
-                    viewBox="0 0 22 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
-                      fill="currentColor"
-                    />
-                  </svg>
+            <!-- about-us -->
+            <div class="about-us">
+                <div class="content">
+                    <div class="us-img">
+                        <img src="./assets/img/about-us-1.jpg" alt="" />
+                        <img src="./assets/img/about-us-2.jpg" alt="" />
+                    </div>
+                    <div class="us-info">
+                        <h1>Take back your smile with shine.</h1>
+                        <p>
+                            If you’re missing multiple teeth due to decay,
+                            injury, or the natural aging process, dentures might
+                            be the perfect solution.
+                        </p>
+                        <div class="btn">Learn More</div>
+                    </div>
                 </div>
-                <div class="item-info">
-                  <h3>Oral Surgery</h3>
-                  <p>
-                    Everything you expect and then some. Cleanings, fillings,
-                    and x-rays.
-                  </p>
-                </div>
-              </div>
-              <!-- item-2 -->
-              <div class="item">
-                <div class="icon-1">
-                  <svg
-                    width="22"
-                    height="24"
-                    viewBox="0 0 22 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-                <div class="item-info">
-                  <h3>Wisdom Teeth Removal</h3>
-                  <p>
-                    Everything you expect and then some. Cleanings, fillings,
-                    and x-rays.
-                  </p>
-                </div>
-              </div>
-              <!-- item-3 -->
-              <div class="item">
-                <div class="icon-1">
-                  <svg
-                    width="22"
-                    height="24"
-                    viewBox="0 0 22 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M20.3598 2.63964C17.9506 -0.556131 14.2772 -0.568132 11.2481 1.10682C11.001 1.24657 10.7219 1.31411 10.4406 1.30222C10.1592 1.29033 9.88633 1.19945 9.65105 1.03931C8.49552 0.245717 7.29036 -0.316477 5.13904 0.207462C0.623408 1.3071 0 4.90379 0 8.99816C0.0797353 12.1602 0.500857 15.3032 1.25551 18.3683C2.11836 22.0168 3.90382 24 5.43354 24C6.96326 24 7.00963 22.2204 7.00963 20.8016C7.00963 19.2009 7.39505 14.8009 10.8642 14.8009C13.5317 14.8009 14.3333 18.4013 14.3333 20.8016C14.3329 23.095 15.1722 24 16.6628 24C19.5267 24 20.9796 15.3938 21.3719 13.1237C21.7642 10.8535 22.9882 6.12569 20.3598 2.63964Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </div>
-                <div class="item-info">
-                  <h3>Preventative Dentistry</h3>
-                  <p>
-                    Everything you expect and then some. Cleanings, fillings,
-                    and x-rays.
-                  </p>
-                </div>
-              </div>
-              <div class="btn">All Services</div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- how-it-works -->
-      <div class="how-it-works">
-        <div class="content">
-          <!-- works-top-->
-          <div class="works-top">
-            <div class="works">
-              <h1>How it works</h1>
-              <p>Exceptional dental care for all ages. Your great smile begins with a great dentist.</p>
+            <!-- team -->
+            <div class="team">
+                <div class="content">
+                    <!-- team-top -->
+                    <div class="team-top">
+                        <h1>Our virtual dentist</h1>
+                        <div class="btn">Meet our dentist</div>
+                    </div>
+                    <!-- team-list -->
+                    <div class="team-list">
+                        <div class="member">
+                            <img src="./assets/img/member-1.jpg" alt="" />
+                            <div class="name">Dr. Essence Page</div>
+                            <p>DDS, California - Linda University</p>
+                        </div>
+                        <div class="member">
+                            <img src="./assets/img/member-2.jpg" alt="" />
+                            <div class="name">Dr. Essence Page</div>
+                            <p>DDS, California - Linda University</p>
+                        </div>
+                        <div class="member">
+                            <img src="./assets/img/member-3.jpg" alt="" />
+                            <div class="name">Dr. Essence Page</div>
+                            <p>DDS, California - Linda University</p>
+                        </div>
+                        <div class="member">
+                            <img src="./assets/img/member-4.jpg" alt="" />
+                            <div class="name">Dr. Essence Page</div>
+                            <p>DDS, California - Linda University</p>
+                        </div>
+                    </div>
+                    <!-- control-btn -->
+                    <div class="control-btn">
+                        <div class="control">
+                            <svg
+                                width="6"
+                                height="12"
+                                viewBox="0 0 6 12"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5.5 1L0.5 6L5.5 11"
+                                    stroke="#575F66"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                        <div class="control">
+                            <svg
+                                class="vector-rotate"
+                                width="6"
+                                height="12"
+                                viewBox="0 0 6 12"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M5.5 1L0.5 6L5.5 11"
+                                    stroke="#575F66"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- works-info -->
-          <div class="works-info">
-            <div class="works-item">
-              <img src="./assets/img/works-item-1.svg" alt="">
-              <h3>Search doctor</h3>
-              <p>Search a doctor by education, qualifications or experience-contact for inquiry.</p>
-              <a href="#!">Learn More</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-  </body>
+        </main>
+    </body>
 </html>
