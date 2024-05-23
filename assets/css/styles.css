@@ -22,7 +22,7 @@ a {
 .btn {
   display: inline-block;
   min-width: 104px;
-  border-radius: 22px;
+  border-radius: 99px;
   background: #2e80ce;
   text-align: center;
   font-weight: 400;
@@ -30,7 +30,7 @@ a {
   white-space: nowrap;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   opacity: 0.9;
 }
 
@@ -40,7 +40,7 @@ a {
   height: 100vh;
 }
 .nav {
-  margin-top: 30px;
+  padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -51,29 +51,26 @@ a {
   width: 363px;
   justify-content: space-between;
 }
-.nav ul li a:hover{
-    color: #FFF;
-    /* font-weight: 400;    */
-    text-shadow: 1px 0 0 currentColor;
-    
+.nav ul li a:hover {
+  color: #fff;
+  text-shadow: 1px 0 0 currentColor;
 }
-.nav ul .home{
+.nav ul .home {
   position: relative;
-  color: #FFF;
-  font-weight: 400;   
+  color: #fff;
+  font-weight: 400;
 }
 
-.nav ul .home::before{
-content: "";
-display: inline-block;
-width: 6px;
-height: 6px;
-background: #FFFFFF;
-border-radius: 50%;
-position: absolute;
-left: -14px;
-top: 7.5px;
-
+.nav ul .home::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: -14px;
+  top: 7.5px;
 }
 .nav ul a,
 .btn-in {
@@ -116,4 +113,166 @@ top: 7.5px;
 .header .atc .btn-in {
   padding-right: 28px;
   white-space: nowrap;
+}
+/* header-info */
+.header-info {
+  display: flex;
+  margin-top: 67px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-info .info-content {
+  width: 517px;
+  /* margin: auto; */
+}
+.info-content h1 {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 1.44; /* 114.286% */
+  letter-spacing: -1.4px;
+  margin: 0;
+}
+.info-content p {
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.66; /* 166.667% */
+  margin: 22px 0 38px;
+}
+.info-content .atc-info {
+  display: flex;
+  margin-top: 38px;
+  align-items: center;
+}
+.info-content .atc-info .btn {
+  width: 205px;
+  height: 60px;
+  font-size: 1.8rem;
+  line-height: 60px;
+}
+.info-content .atc-info a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.66; /* 166.667% */
+  margin-left: 38px;
+}
+/* header-img */
+.info-img {
+  display: flex;
+  align-items: center;
+}
+.header-info .info-img .img-1 {
+  width: 330px;
+  height: 540px;
+  border-radius: 6px;
+  object-fit: cover;
+  z-index: 1;
+}
+.header-info .info-img .img-2 {
+  width: 210px;
+  height: 410px;
+  flex-shrink: 0;
+  border-radius: 0px 6px 6px 0px;
+  object-fit: cover;
+  margin-left: -10px;
+}
+/* services-content */
+.services .content {
+  margin-top: 170px;
+}
+/*  services-top*/
+.services-top {
+  /* justify-content: center; */
+}
+.services-top .top-info {
+  width: 468px;
+  margin: auto;
+}
+.services-top h1 {
+  color: #10375c;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2; /* 120% */
+  letter-spacing: -1px;
+  margin: 0;
+}
+.services-top p {
+  margin-top: 8px;
+  color: #575f66;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.66; /* 166.667% */
+}
+/* services-content */
+.services-content {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* item-list */
+.services-content .item-list {
+  width: 470px;
+}
+.services-content .item-list .item {
+  display: flex;
+  align-items: center;
+  padding: 21px 18px 20px 22px;
+  transition: .25s;
+}
+.services-content .item-list .item:hover{
+  border-radius: 10px;
+background: #FFF;
+box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+.services-content .item .icon-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #eff6fd;
+  display: flex;
+  margin-right: 19px;
+  flex-shrink: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #10375c;
+  transition: .25s;
+}
+.services-content .item .icon-1:hover {
+  background: #10375c;
+  color: #fff;
+}
+
+.services-content .item-list .btn {
+  width: 205px;
+  height: 60px;
+  flex-shrink: 0;
+  line-height: 60px;
+  margin-top: 55px;
+}
+.services-content .item h3 {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+.services-content .item p {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+  margin: 8px 0 0;
+}
+.services-content img.services-img-1 {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
 }
