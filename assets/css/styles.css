@@ -154,7 +154,7 @@ a {
   justify-content: space-between;
 }
 .header-info .info-content {
-  width: 517px;
+  width: 45%;
   /* margin: auto; */
 }
 .info-content h1 {
